@@ -169,3 +169,52 @@ a {
   padding-left: 24px;
   padding-right: 24px;
 }
+
+/* brain section design */
+
+.brain-container {
+  max-width: 1600px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px;
+  /* gap: 60px; */
+}
+
+.brain-article h4 {
+  line-height: 20px;
+  color: #469165;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.brain-article h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #001931;
+}
+.brain-article p {
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.brain-image {
+  margin-right: 60px;
+}
+
+.check-circle {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.check-circle h5 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 20px;
+  font-weight: 500;
+}
