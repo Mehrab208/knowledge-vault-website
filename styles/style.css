@@ -13,7 +13,13 @@ li {
 a {
   text-decoration: none;
 }
-
+button {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.05);
+}
 /* Header design */
 .nav-bar {
   max-width: 1360px;
