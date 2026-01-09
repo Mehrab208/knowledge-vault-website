@@ -121,6 +121,7 @@ a {
   max-width: 1600px;
   text-align: center;
   margin: 0 auto;
+  margin-top: 60px;
 }
 
 .notes-article h2 {
@@ -173,16 +174,19 @@ a {
 /* brain section design */
 
 .brain-container {
-  max-width: 1600px;
+  max-width: 1360px;
   width: 85%;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 120px;
-  /* gap: 60px; */
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
+.brain-article {
+  padding-right: 120px;
+}
 .brain-article h4 {
   line-height: 20px;
   color: #469165;
@@ -217,4 +221,44 @@ a {
   gap: 6px;
   line-height: 20px;
   font-weight: 500;
+}
+/* early access section design */
+
+.early-access-container {
+  max-width: 1360px;
+  width: 85%;
+  height: 348px;
+
+  text-align: center;
+  background-color: #f7f6f2;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.early-access-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  padding-top: 80px;
+}
+
+.early-access-container p {
+  color: #627382;
+  line-height: 24px;
+  padding-top: 16px;
+}
+
+.early-access-container button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 16px;
+  border: none;
+  background-color: #469165;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 24px;
 }
